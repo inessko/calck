@@ -1,0 +1,29 @@
+@keyframes fadein {
+   0% {
+     //top: 30px;
+     //left: 50px;
+     padding-top: 50px;
+     transform: scaleX(0.5);
+   }
+
+   100% {
+     //top: 0;
+     //left: 0;
+     padding-top: 0;
+     transform: scaleX(1);
+   }
+ }
+
+@keyframes oua_cart {
+  0% {
+    //top: 30px;
+    //left: 50px;
+    transform: scaleX(0);
+  }
+
+  100% {
+    //top: 0;
+    //left: 0;
+    transform: scaleX(1);
+  }
+}
